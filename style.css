@@ -1,0 +1,208 @@
+body{
+    padding:0px;
+    margin:0px;
+ }
+ .nav{
+    margin-bottom: 0px;
+}
+ /* div{
+    display:inline-block;
+
+    padding:0px;
+    margin:0px;
+ } */
+ 
+.fa-apple{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.my-class{
+    /* top:-20%; */
+    background-color: black;
+    margin: 0px;
+    padding: 3px;
+}
+.my-class2{
+    /* top:-20%; */
+    background-color: white;
+    margin-top: 10px;
+    margin: 5px;
+    padding: 3px;
+}
+h1{
+    margin-top: 0;
+}
+.icon-name{
+    color: white;
+    text-align:start;
+}
+.music-name{
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    text-align:center;
+    font-size: calc(3vw + 6px);
+    padding: 0%;
+    border-radius: 15px;
+}
+.lern-more{
+    background-color: rgb(243, 27, 99);
+    color: white;
+    font-size: calc(13px + (13 - 7) * ((100vw - 300px) / (1600 - 300)));
+    padding: 3%;
+    border-radius:3vw;
+    text-align: center;
+}
+.lern-more:hover{
+    opacity:0.6;
+}
+.parent1{
+    position: relative;
+    background-image: url("images/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    max-width: 100%;
+    height: 100vh;  
+
+}
+.child11{
+    position: absolute;
+    top:32rem;
+    right:42%;
+    left:48%
+}
+.child12{
+    position: absolute;
+    top:40rem;
+    left:30%;
+    right:30%;
+    padding: 0%;
+}
+.child13{
+    position: absolute;
+    top:47rem;
+    left:39%;
+    right: 51%;
+    padding: 0%;
+
+}
+.child14{
+    position: absolute;
+    top: 47rem;;
+    left:51%;
+    right: 39%;
+    padding: 0%;
+}
+.child15{
+    /* position: absolute;
+    top:52rem;
+    left:30%;
+    right:30%; */
+    padding: 0%;
+}
+.wrap{
+    position: relative;
+    width:100%;
+    height:100rem;
+    text-align: center;
+    overflow:hidden;
+}
+.wrap button{
+    background-color: rgb(0, 0, 0);
+    opacity:0.6;
+    color: white;
+    font-size: 2vw;
+    border: 1vw solid rgb(0, 0, 0, 0.5);
+    border-radius: 1vw;
+    text-align: center;
+}
+.wrap button:hover{
+    background-color: rgb(0, 0, 0);
+    opacity:0.2;
+    color: white;
+    font-size: 2vw;
+    border: 2vw solid rgb(0, 0, 0, 0.5);
+    border-radius: 2vw;
+}
+.wchild1{
+    position: absolute;
+    top:7rem;
+    left:15%;
+}
+.wchild2{
+    position: absolute;
+    top:7rem;
+    right:15%;
+}
+.wchild3{
+    position: absolute;
+    top:28rem;
+    left:15%;
+}
+.wchild4{
+    position: absolute;
+    top:28rem;
+    right:15%;
+}
+.wchild5{
+    position: absolute;
+    top:49rem;
+    left:15%;
+}
+.wchild6{
+    position: absolute;
+    top:49rem;
+    right:15%;
+}
+.wchild7{
+    position: absolute;
+    top:70rem;
+    left:15%;
+}
+.wchild8{
+    position: absolute;
+    top:70rem;
+    right:15%;
+}
+.parent2{
+    position: relative;
+    background-color: rgb(173, 173, 173);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    max-width: 100%;
+    height: 50vh;  
+}
+.child21{
+    position: absolute;
+    top:10rem;
+    right:60%;
+    left:30%
+}
+.child22{
+    position: absolute;
+    top:10rem;
+    right:30%;
+    left:60%
+}
+.hover2:hover{
+    opacity: 0.5;
+}
+.my-class4{
+    /* top:-20%; */
+    background-color: black;
+    margin: 0;
+    padding: 3px;
+    color: honeydew;
+}
+ @media(max-width:700px){
+   .parent1{
+       max-width: 100;
+       height: 50vh;
+   }
+}
